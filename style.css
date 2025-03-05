@@ -111,3 +111,30 @@ button {
   justify-content: center;
   align-items: center;
 }
+
+#main-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  padding: 15px;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.annoucement-data {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  padding: 10px;
+}
+
+.card {
+  background-color: white;
+  width: inherit;
+  padding: 10px;
+}
